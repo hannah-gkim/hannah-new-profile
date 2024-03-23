@@ -12879,7 +12879,7 @@ function E0() {
     ],
   });
 }
-const C0 = "/assets/hero_img-Cgwgwg35.png";
+const C0 = "./assets/hero_img-Cgwgwg35.png";
 function P0() {
   const e = () => {
       window.open("https://www.linkedin.com/in/hannah-gkim/", "_blank");
