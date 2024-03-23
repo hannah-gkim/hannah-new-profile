@@ -12967,7 +12967,7 @@ function P0() {
 const T0 = [
     {
       id: "1",
-      src: "/portfolio1.GIF",
+      src: "./portfolio1.GIF",
       title: "E-commerce app",
       description:
         "Leveraged React and Redux to create a seamless shopping experience, empowering users to browse products, maintain a persistent cart, and efficiently check out orders.Engineered a robust Node.js REST API to support the application's backend functionality and utilized PostgreSQL with Sequelize for efficient data management and seamless integration.",
@@ -12975,7 +12975,7 @@ const T0 = [
     },
     {
       id: "2",
-      src: "/portfolio2.GIF",
+      src: "./portfolio2.GIF",
       title: "Translation mobile app",
       description:
         "Designed and developed a mobile app aimed at facilitating language translation on-the-go. Implemented React Native with React Hooks to create a cross-platform mobile application compatible with iOS and Android devices. Integrated Google Vision API for text extraction from images and seamlessly incorporated Google Translation API for real-time translation of extracted text into the user's preferred language.",
@@ -12983,7 +12983,7 @@ const T0 = [
     },
     {
       id: "3",
-      src: "/portfolio3.GIF",
+      src: "./portfolio3.GIF",
       title: "Portfolio app",
       description:
         "Created a portfolio website for hypothetical photographers. Users can view the portfolio website, while photographers, the admins, can add and delete photos to the website as well as view the website. Utilized Firebase Authentication and Firestore to store user information and data.",
