@@ -5,7 +5,7 @@ export default function AboutMe() {
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
         <img
-          src="/img/about-me.png"
+          src="/about-me.png"
           alt="About Me"
           style={{
             borderRadius: "20px",

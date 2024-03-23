@@ -51,7 +51,7 @@ export default function Profile() {
       </div>
       <div className="hero--section--img">
         <img
-          src="/img/hero_img.png"
+          src="/hero_img.png"
           alt="Hero Section"
           style={{
             borderRadius: "20px",
