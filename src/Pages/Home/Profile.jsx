@@ -1,5 +1,5 @@
 import { Icon } from "@iconify-icon/react";
-// import profileImg from "../../assets/img/hero_img.png";
+import profileImg from "../../../public/hero_img.png";
 
 export default function Profile() {
   const openLinkedIn = () => {
@@ -51,7 +51,8 @@ export default function Profile() {
       </div>
       <div className="hero--section--img">
         <img
-          src="/hero_img.png"
+          src={profileImg}
+          // src="/hero_img.png"
           alt="Hero Section"
           style={{
             borderRadius: "20px",
