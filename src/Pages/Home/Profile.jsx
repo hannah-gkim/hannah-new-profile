@@ -1,6 +1,5 @@
-import { useState } from "react";
 import { Icon } from "@iconify-icon/react";
-import profileImg from "../../assets/img/hero_img.png";
+// import profileImg from "../../assets/img/hero_img.png";
 
 export default function Profile() {
   const openLinkedIn = () => {
@@ -8,32 +7,6 @@ export default function Profile() {
   };
   const openGitHub = () => {
     window.open("https://github.com/hannah-gkim", "_blank");
-  };
-  const [fetching, setFetching] = useState(false);
-  const [error, setError] = useState(false);
-
-  const url = ".././../../public/pdf/Hannah.Gomez.Kim.pdf";
-  const test = "hannah";
-
-  const download = (url, name) => {
-    if (!url) {
-      throw new Error("Resource URL not provided! You need to provide one");
-    }
-    setFetching(true);
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        setFetching(false);
-        const blobURL = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = blobURL;
-        a.style = "display: none";
-
-        if (name && name.length) a.download = name;
-        document.body.appendChild(a);
-        a.click();
-      })
-      .catch(() => setError(true));
   };
 
   return (
@@ -78,7 +51,7 @@ export default function Profile() {
       </div>
       <div className="hero--section--img">
         <img
-          src={profileImg}
+          src="/img/hero_img.png"
           alt="Hero Section"
           style={{
             borderRadius: "20px",
