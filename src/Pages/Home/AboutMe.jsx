@@ -18,7 +18,7 @@ export default function AboutMe() {
           {/* <p
            className="section--title">About</p> */}
           <p className="hero--section-description">
-            As an accomplished software engineer with over 2 years of full-stack
+            As an accomplished software engineer with 3 years of full-stack
             development experience, specializing in frontend technologies such
             as React, I bring a diverse perspective to projects. With fluency in
             English, Korean, and Japanese, and having lived in multiple

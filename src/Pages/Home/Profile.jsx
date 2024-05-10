@@ -33,7 +33,7 @@ export default function Profile() {
             </div>
           </div>
           <p className="hero--section-description">
-            An accomplished software engineer with over 2 years of full-stack
+            An accomplished software engineer with 3 years of full-stack
             development experience, specializing in React development
           </p>
         </div>
