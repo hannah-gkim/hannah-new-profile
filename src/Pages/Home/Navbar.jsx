@@ -104,7 +104,6 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          {/* TODO: */}
           <li>
             <Link
               onClick={closeMenu}
